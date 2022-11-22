@@ -1,6 +1,7 @@
 # MLOps_Vertex_AI
 MLOps를 위한 Vertex AI Tutorial 학습 및 실전적인 예제 적용까지를 목표로 합니다.
 
+[20221121]
 01_pipelines_intro_kfp Abstraction
 
 1. Vertex AI에서의 Kubeflow Pipeline 사용 가능성
