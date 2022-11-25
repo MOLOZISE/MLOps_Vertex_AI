@@ -24,4 +24,10 @@ https://blog.ml6.eu/a-general-framework-for-machine-learning-pipelines-on-gcp-b5
 2. Train Component는 Dockerfile로, 나머지 Component들은 Local function으로 정의함, 특히 여러 Component들의 연결성을 고려하여 설계한 것이 인상 깊음
 3. 실제 프로젝트에 적용할 때에는, Dockerization을 위한 Component들을 ML Workflow에서 주요 핵심 부분들만을 선정하여 결정하고, 나머지는 Local function으로 정의하는 방향으로 설계하는 것이 바람직하다고 생각함. 그리고, GCP Cloud Bucket, Registry와 연결하는 부분을 적극 활용하여 프로젝트에 적용할 수 있도록 해야함.
 
+[20221124 - 20221125]
+https://blog.ml6.eu/a-general-framework-for-machine-learning-pipelines-on-gcp-b57e234f7d12?gi=e44724ff4877
 
+1. Google Colab : project setting, Dockerfile build & push, Pipeline specification & run 수행 확인
+2. Component : 각 컴포넌트들의 깊은 이해 및 AutoML Container와의 결합 찾기
+3. Total Flow : Data Load -> Data Preprocess -> Hyperparameter_tuning(Model_train, Model_evaluation, AutoML) -> Deployment Process
+보다 자세한 Component 분석은 pdf 참고
