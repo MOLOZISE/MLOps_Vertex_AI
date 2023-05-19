@@ -31,3 +31,6 @@ https://blog.ml6.eu/a-general-framework-for-machine-learning-pipelines-on-gcp-b5
 2. Component : 각 컴포넌트들의 깊은 이해 및 AutoML Container와의 결합 찾기
 3. Total Flow : Data Load -> Data Preprocess -> Hyperparameter_tuning(Model_train, Model_evaluation, AutoML) -> Deployment Process
 보다 자세한 Component 분석은 pdf 참고
+
+#################################
+최종구현물
